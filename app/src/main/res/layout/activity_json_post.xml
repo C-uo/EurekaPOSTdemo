@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".json_post">
+
+    <TextView
+        android:id="@+id/textBox"
+        android:layout_width="190dp"
+        android:layout_height="53dp"
+        android:text="Aircraft Name"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/aircraftName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/edit_message"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="145dp"
+        android:layout_height="57dp"
+        android:onClick="send"
+        android:text="Send"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/checkNetwork"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        android:text="通信正常"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/separateThread"
+        android:layout_width="176dp"
+        android:layout_height="72dp"
+        android:text=""
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+</android.support.constraint.ConstraintLayout>
